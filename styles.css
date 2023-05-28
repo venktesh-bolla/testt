@@ -171,3 +171,26 @@ footer p {
     padding: 10px;
   }
 }
+
+/* Additional styles for the requested changes */
+section .container h2 {
+  margin-top: 40px;
+}
+
+section .container p,
+section .container ul {
+  margin-left: 20px;
+}
+
+section .container ul li {
+  margin-bottom: 10px;
+}
+
+section .container ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+section .container ul li a:hover {
+  text-decoration: underline;
+}
