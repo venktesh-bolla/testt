@@ -162,14 +162,6 @@ footer p {
   section p {
     font-size: 14px;
   }
-
-  .gallery img {
-    box-shadow: none;
-  }
-
-  footer {
-    padding: 10px;
-  }
 }
 
 /* Additional styles for the requested changes */
@@ -193,4 +185,57 @@ section .container ul li a {
 
 section .container ul li a:hover {
   text-decoration: underline;
+}
+
+section .container ul.bullet-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Visually appealing color combinations */
+body {
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+header h1 {
+  color: #fff;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+section {
+  background-color: #fff;
+}
+
+section h1 {
+  color: #333;
+}
+
+section h2 {
+  color: #333;
+}
+
+section p {
+  color: #555;
+}
+
+.gallery img {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+}
+
+footer p {
+  color: #fff;
 }
