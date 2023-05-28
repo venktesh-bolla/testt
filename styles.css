@@ -41,6 +41,14 @@ nav ul li a {
 /* Main section styles */
 section {
   margin-bottom: 60px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+section.reveal {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 section h1 {
@@ -93,4 +101,30 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+/* Parallax effect */
+.parallax {
+  background-attachment: fixed;
+}
+
+/* Slideshow */
+.slideshow-slide {
+  display: none;
+}
+
+.slideshow-slide.active {
+  display: block;
+}
+
+/* Scroll reveal */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.scroll-reveal.reveal {
+  opacity: 1;
+  transform: translateY(0);
 }
