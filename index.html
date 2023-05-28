@@ -1,67 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Software Project Showcase</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software Project Showcase</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#screenshots">Screenshots</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section id="about">
-            <div class="container">
-                <h1>Welcome to My Software Project Showcase</h1>
-                <p>This showcase demonstrates the features and highlights of my software project.</p>
-            </div>
-        </section>
-        
-        <section id="features">
-            <div class="container">
-                <h2>Key Features</h2>
-                <ul>
-                    <li>Feature 1</li>
-                    <li>Feature 2</li>
-                    <li>Feature 3</li>
-                    <li>Feature 4</li>
-                </ul>
-            </div>
-        </section>
-        
-        <section id="screenshots">
-            <div class="container">
-                <h2>Screenshots</h2>
-                <div class="gallery">
-                    <img src="images/screenshot1.jpg" alt="Screenshot 1">
-                    <img src="images/screenshot2.jpg" alt="Screenshot 2">
-                    <img src="images/screenshot3.jpg" alt="Screenshot 3">
-                </div>
-            </div>
-        </section>
-        
-        <section id="contact">
-            <div class="container">
-                <h2>Contact</h2>
-                <p>You can reach out to me for any inquiries or feedback at info@example.com.</p>
-            </div>
-        </section>
-    </main>
-    
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 My Software Project. All rights reserved.</p>
-        </div>
-    </footer>
-    
-    <script src="script.js"></script>
+  <header>
+    <h1>Software Project Showcase</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="scroll-reveal">
+      <h1>About</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper vestibulum laoreet. Nam viverra, metus vitae vestibulum vestibulum, ligula metus laoreet justo, id eleifend felis urna eu lectus.</p>
+    </section>
+
+    <section id="projects" class="scroll-reveal">
+      <h1>Projects</h1>
+      <div class="gallery">
+        <img src="project1.jpg" alt="Project 1">
+        <img src="project2.jpg" alt="Project 2">
+        <img src="project3.jpg" alt="Project 3">
+      </div>
+    </section>
+
+    <section id="contact" class="scroll-reveal">
+      <h1>Contact</h1>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your message"></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Software Project Showcase. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
