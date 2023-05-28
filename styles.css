@@ -136,3 +136,38 @@ footer p {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+
+  nav ul li {
+    margin-right: 10px;
+  }
+
+  section h1 {
+    font-size: 28px;
+  }
+
+  section h2 {
+    font-size: 24px;
+  }
+
+  section p {
+    font-size: 14px;
+  }
+
+  .gallery img {
+    box-shadow: none;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}
