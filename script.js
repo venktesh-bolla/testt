@@ -54,3 +54,21 @@ const nextSlide = () => {
 };
 
 setInterval(nextSlide, slideInterval);
+
+// Scroll reveal for individual elements
+const scrollRevealElements = document.querySelectorAll('.scroll-reveal');
+
+const scrollReveal = () => {
+    scrollRevealElements.forEach(element => {
+        const distanceFromTop = element.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+
+        if (distanceFromTop < windowHeight - 100) {
+            element.classList.add('reveal');
+        } else {
+            element.classList.remove('reveal');
+        }
+    });
+};
+
+window.addEventListener('scroll', scrollReveal);
