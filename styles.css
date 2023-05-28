@@ -1,10 +1,11 @@
 /* Global styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
   color: #333;
+  line-height: 1.6;
 }
 
 .container {
@@ -50,17 +51,18 @@ section h1 {
 section h2 {
   font-size: 28px;
   margin-bottom: 10px;
+  color: #333;
 }
 
 section p {
   font-size: 16px;
-  line-height: 1.6;
+  color: #555;
 }
 
 ul {
   list-style-type: disc;
   margin-left: 20px;
-  margin-bottom: 20px;
+  color: #555;
 }
 
 .gallery {
@@ -72,6 +74,13 @@ ul {
 .gallery img {
   width: 100%;
   height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
 }
 
 /* Footer styles */
@@ -81,4 +90,7 @@ footer {
   padding: 20px;
   text-align: center;
 }
-You can further customize the styles, colors, and layout to match your desired visual appeal for your software project showcase website.
+
+footer p {
+  margin: 0;
+}
