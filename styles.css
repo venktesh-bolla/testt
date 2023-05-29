@@ -3,7 +3,6 @@ body {
   font-family: 'Roboto', Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #455A64; /* Dark Blue Grey */
 }
 
 .container {
@@ -44,6 +43,9 @@ nav ul li a {
 /* Main section styles */
 section {
   margin-bottom: 60px;
+  background-color: #455A64; /* Dark Blue Grey */
+  color: #fff;
+  padding: 40px;
 }
 
 section h2 {
