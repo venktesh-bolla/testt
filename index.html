@@ -8,38 +8,55 @@
 </head>
 <body>
   <header>
-    <h1>Project Name</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1 class="title">Project Name</h1>
+      <nav>
+        <ul class="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#references">References</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section id="about" class="scroll-reveal">
-      <h1>About</h1>
+    <section id="about">
       <div class="container">
-        <h2>Description</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper vestibulum laoreet. Nam viverra, metus vitae vestibulum vestibulum, ligula metus laoreet justo, id eleifend felis urna eu lectus.</p>
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et lacinia nibh. Donec convallis elit sed convallis congue. Quisque tincidunt consequat est, sit amet faucibus leo sagittis vel. Aenean luctus massa sed risus dapibus tincidunt. Donec rutrum dolor vitae sem aliquet, a posuere tellus convallis.</p>
+        <p>Nulla viverra efficitur aliquam. Sed fringilla, metus sit amet vestibulum bibendum, nulla nisl ultricies est, at rutrum ligula nunc in dolor.</p>
+      </div>
+    </section>
 
-        <h2>Role</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper vestibulum laoreet.</p>
-
-        <h2>Responsibility</h2>
-        <ul>
-          <li>Lorem ipsum dolor sit amet</li>
-          <li>Consectetur adipiscing elit</li>
-          <li>Sed ullamcorper vestibulum laoreet</li>
+    <section id="team" class="dark-bg">
+      <div class="container">
+        <h2>Team</h2>
+        <ul class="team-members">
+          <li>
+            <img src="images/team-member1.jpg" alt="Team Member 1">
+            <h3>John Doe</h3>
+            <p>Role: Developer</p>
+          </li>
+          <li>
+            <img src="images/team-member2.jpg" alt="Team Member 2">
+            <h3>Jane Smith</h3>
+            <p>Role: Designer</p>
+          </li>
+          <li>
+            <img src="images/team-member3.jpg" alt="Team Member 3">
+            <h3>Michael Johnson</h3>
+            <p>Role: Project Manager</p>
+          </li>
         </ul>
+      </div>
+    </section>
 
-        <h2>Team Size</h2>
-        <p>5 members</p>
-
-        <h2>Other References</h2>
-        <ul>
+    <section id="references">
+      <div class="container">
+        <h2>References</h2>
+        <ul class="bullet-list">
           <li><a href="#">Reference 1</a></li>
           <li><a href="#">Reference 2</a></li>
           <li><a href="#">Reference 3</a></li>
@@ -49,7 +66,9 @@
   </main>
 
   <footer>
-    <p>&copy; 2023 Software Project Showcase. All rights reserved.</p>
+    <div class="container">
+      <p>&copy; 2023 Project Name. All rights reserved.</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
