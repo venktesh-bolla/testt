@@ -3,6 +3,7 @@ body {
   font-family: 'Roboto', Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #455A64; /* Dark Blue Grey */
 }
 
 .container {
@@ -13,10 +14,9 @@ body {
 
 /* Header styles */
 header {
-  background-color: #2196f3; /* Material Design Blue */
+  background-color: #9e9e9e; /* Material Design Grey */
   color: #fff;
   padding: 20px;
-  text-align: center;
 }
 
 header .title {
@@ -62,7 +62,7 @@ ul.bullet-list {
 
 /* Team section styles */
 section.dark-bg {
-  background-color: #424242; /* Dark Grey */
+  background-color: #616161; /* Darker Material Design Grey */
   color: #fff;
   padding: 40px;
 }
@@ -97,7 +97,7 @@ section.dark-bg {
 
 /* Footer styles */
 footer {
-  background-color: #2196f3; /* Material Design Blue */
+  background-color: #9e9e9e; /* Material Design Grey */
   color: #fff;
   padding: 20px;
   text-align: center;
