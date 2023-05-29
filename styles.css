@@ -16,7 +16,7 @@ body {
 
 /* Header styles */
 header {
-  background-color: #2196f3;
+  background-color: #1976d2; /* Darkened Material Design Blue */
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -101,7 +101,7 @@ ul {
 
 /* Footer styles */
 footer {
-  background-color: #2196f3;
+  background-color: #1976d2; /* Darkened Material Design Blue */
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -199,7 +199,7 @@ body {
 }
 
 header {
-  background-color: #2196f3; /* Material Design Blue */
+  background-color: #1976d2; /* Darkened Material Design Blue */
   color: #fff;
 }
 
@@ -232,7 +232,7 @@ section p {
 }
 
 footer {
-  background-color: #2196f3; /* Material Design Blue */
+  background-color: #1976d2; /* Darkened Material Design Blue */
   color: #fff;
 }
 
