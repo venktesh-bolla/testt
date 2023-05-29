@@ -16,7 +16,7 @@ body {
 
 /* Header styles */
 header {
-  background-color: #2c3e50;
+  background-color: #2196f3;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -101,7 +101,7 @@ ul {
 
 /* Footer styles */
 footer {
-  background-color: #2c3e50;
+  background-color: #2196f3;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -192,14 +192,14 @@ section .container ul.bullet-list {
   padding-left: 20px;
 }
 
-/* Visually appealing color combinations */
+/* Material Design color combinations */
 body {
   background-color: #f8f8f8;
   color: #333;
 }
 
 header {
-  background-color: #3498db;
+  background-color: #2196f3; /* Material Design Blue */
   color: #fff;
 }
 
@@ -232,7 +232,7 @@ section p {
 }
 
 footer {
-  background-color: #3498db;
+  background-color: #2196f3; /* Material Design Blue */
   color: #fff;
 }
 
