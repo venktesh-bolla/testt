@@ -2,13 +2,3 @@
   background-color: #2f4f4f;
 }
 
-.custom-heading {
-  font-family: "Times New Roman", Times, serif;
-  text-align: center;
-}
-
-.button-container {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px;
-}
