@@ -18,3 +18,14 @@
   text-align: left;
   margin: 10px;
 }
+
+.project ul {
+  list-style-type: disc; /* or other values like square, circle, etc. */
+  margin-left: 20px; /* adjust the margin as per your preference */
+  margin-bottom: 10px; /* adjust the margin as per your preference */
+}
+
+.project li {
+  color: white;
+  font-size: 16px;
+}
