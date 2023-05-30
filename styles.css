@@ -15,6 +15,14 @@
   line-height: 1.2;
 }
 
+.project h1::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid white;
+  margin-top: 4px;
+}
+
 .project p {
   color: white;
   font-size: 20px;
