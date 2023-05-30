@@ -2,9 +2,11 @@
   background-color: #062236;
 }
 
-.project h1 {
-  color: white;
+.project {
   text-align: center;
-  font-size: 24px;
 }
 
+.project h1 {
+  color: white;
+  font-size: 24px;
+}
