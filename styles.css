@@ -7,6 +7,7 @@
 }
 
 .project h1 {
+  background-color: #01111c;
   color: white;
   font-size: 40px;
   text-align: center;
@@ -14,6 +15,7 @@
   text-decoration-skip-ink: none;
   line-height: 1.2;
   font-family: "Helvetica Neue", Arial, sans-serif;
+  margin-top: 3px;
 }
 
 .project h1::after {
