@@ -25,6 +25,7 @@
   list-style-type: disc; /* or other values like square, circle, etc. */
   margin-left: 20px; /* adjust the margin as per your preference */
   margin-bottom: 10px; /* adjust the margin as per your preference */
+  margin-top: -8px;
 }
 
 .project li {
