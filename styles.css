@@ -44,9 +44,12 @@
   margin-left: 20px;
   font-size: 16px;
   font-family: "Didot";
+  font-weight: lighter;
 }
 
 .on-same-line {
   color: white;
   font-size: 16px;
+  font-family: "Didot";
+  font-weight: lighter;
 }
