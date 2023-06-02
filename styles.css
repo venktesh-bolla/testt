@@ -8,7 +8,7 @@
 
 .project h1 {
   background-color: #01111c;
-  color: white;
+  color: #f5e16a;
   font-size: 40px;
   text-align: center;
   /*text-decoration: underline;*/
@@ -27,7 +27,7 @@
 }
 
 .project p {
-  color: white;
+  color: #f5e16a;
   font-size: 20px;
   text-align: left;
   margin: 10px;
