@@ -52,7 +52,7 @@
   font-weight: lighter;
 }
 
-/* Media Queries for Mobile Devices */
+/* Media Queries for Mobile Devices
 
 @media only screen and (max-width: 600px) {
   .project h1 {
@@ -74,4 +74,4 @@
     color: white;
     font-family: "Didot";
   }
-}
+} */
