@@ -45,6 +45,19 @@
   font-size: 18px;
   font-family: "Didot";
   font-weight: lighter;
+  position: relative;
+  padding-left: 20px;
+}
+
+.project li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
 }
 
 .on-same-line {
