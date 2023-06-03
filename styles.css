@@ -29,25 +29,6 @@ header {
   text-align: center;
 }
 
-.project h1 {
-  background-color: #01111c;
-  color: #f5e16a;
-  font-size: 40px;
-  text-align: center;
-  text-decoration-skip-ink: none;
-  line-height: 1.2;
-  font-family: "Didot", serif;
-  margin-top: 3px;
-}
-
-.project h1::after {
-  content: "";
-  display: block;
-  width: 100%;
-  border-bottom: 1px solid white;
-  margin-top: 4px;
-}
-
 .project p {
   color: #f5e16a;
   font-size: 20px;
