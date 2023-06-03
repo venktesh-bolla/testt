@@ -13,7 +13,7 @@
   text-align: center;
   text-decoration-skip-ink: none;
   line-height: 1.2;
-  font-family: "Didot";
+  font-family: "Didot", serif;
   margin-top: 3px;
 }
 
@@ -32,7 +32,7 @@
   margin: 10px;
   text-decoration-skip-ink: none;
   line-height: 1.2;
-  font-family: "Didot";
+  font-family: "Didot", serif;
   font-weight: bold;
 }
 
@@ -41,36 +41,30 @@
   text-align: left;
   margin-left: 40px;
   font-size: 18px;
-  font-family: "Didot";
+  font-family: "Didot", serif;
   font-weight: lighter;
 }
 
 .on-same-line {
   color: white;
   font-size: 18px;
-  font-family: "Didot";
+  font-family: "Didot", serif;
   font-weight: lighter;
 }
 
-/* Media Queries for Mobile Devices
+/* Media Queries for Mobile Devices */
 @media only screen and (max-width: 600px) {
   .project h1 {
     font-size: 30px;
-    color: white;
-    font-family: "Didot";
   }
 
   .project p {
     font-size: 16px;
     margin: 5px;
-    color: white;
-    font-family: "Didot";
   }
 
   .project li {
     font-size: 14px;
     margin-left: 20px;
-    color: white;
-    font-family: "Didot";
   }
-} */
+}
