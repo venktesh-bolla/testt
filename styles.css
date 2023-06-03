@@ -19,6 +19,14 @@
       padding: 0 20px;
     }
 
+.header ::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid white;
+  margin-top: 4px;
+}
+
     .arrow {
       color: #f5e16a;
       font-size: 30px;
