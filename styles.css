@@ -17,6 +17,8 @@ header {
   font-family: "Didot", serif;
   font-size: 40px;
   padding: 0 20px;
+  border-bottom: 1px solid #f5e16a;
+  border-top: 1px solid #f5e16a
 }
 
 .arrow {
