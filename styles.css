@@ -52,37 +52,6 @@
   font-weight: lighter;
 }
 
-/* CSS styles for the footer and buttons */
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%;
-  padding: 20px;
-  text-align: center;
-  color: #f5e16a;
-  background-color: #01111c;
-}
-
-.pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.pagination button {
-  background-color: transparent;
-  border: none;
-  padding: 10px;
-  font-size: 20px;
-  color: #f5e16a;
-}
-
-.pagination .arrow-icon {
-  font-family: Arial, sans-serif;
-}
-
 /* Media Queries for Mobile Devices */
 @media only screen and (max-width: 600px) {
   .project h1 {
