@@ -6,11 +6,17 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="custom-background">
+
   <header>
-    <div class="arrow">&larr;</div>
+    <div class="arrow" onclick="navigate('left')">
+      <i class="fas fa-chevron-left"></i>
+    </div>
     <div>Project Name</div>
-    <div class="arrow">&rarr;</div>
+    <div class="arrow" onclick="navigate('right')">
+      <i class="fas fa-chevron-right"></i>
+    </div>
   </header>
+
   <!-- Your content goes here -->
   <div class="project">
     <!-- Project Name/Heading -->
