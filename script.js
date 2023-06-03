@@ -1,11 +1,11 @@
 /*Enter your js code here*/
-function navigate(direction, left, right) {
+function navigate(direction, url) {
   // Handle navigation logic here
   if (direction === 'left') {
     // Perform left navigation
-    window.location.href = left;
+    window.location.href = url;
   } else if (direction === 'right') {
     // Perform right navigation
-    window.location.href = right;
+    window.location.href = url;
   }
 }
