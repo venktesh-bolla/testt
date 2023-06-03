@@ -11,7 +11,6 @@
   color: #f5e16a;
   font-size: 40px;
   text-align: center;
-  /*text-decoration: underline;*/
   text-decoration-skip-ink: none;
   line-height: 1.2;
   font-family: "Didot";
@@ -31,7 +30,6 @@
   font-size: 20px;
   text-align: left;
   margin: 10px;
-  /*text-decoration: underline;*/
   text-decoration-skip-ink: none;
   line-height: 1.2;
   font-family: "Didot";
@@ -52,4 +50,22 @@
   font-size: 18px;
   font-family: "Didot";
   font-weight: lighter;
+}
+
+/* Media Queries for Mobile Devices */
+
+@media only screen and (max-width: 600px) {
+  .project h1 {
+    font-size: 30px;
+  }
+
+  .project p {
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  .project li {
+    font-size: 14px;
+    margin-left: 20px;
+  }
 }
