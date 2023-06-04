@@ -130,7 +130,7 @@ footer {
 /* Media Queries for Mobile Devices */
 @media only screen and (max-width: 600px) {
   header {
-    font-size: 18px;
+    font-size: 20px;
   }
   footer {
     font-size: 20px;
@@ -146,6 +146,6 @@ footer {
     margin-left: 30px;
   }
   .on-same-line {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
