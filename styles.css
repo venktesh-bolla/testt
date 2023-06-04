@@ -38,18 +38,6 @@ header {
   background-color: rgba(245, 225, 106, 0.3);
 }
 
-/* Add a vertical bar on the right side */
-.vertical-bar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 50px;
-  height: 100%;
-  background-color: #01111c;
-  border-left: 1px solid #f5e16a;
-  z-index: 998; /* Adjust the z-index to ensure the bar appears behind the header */
-}
-
 .linkedin-button {
   display: flex;
   align-items: center;
