@@ -130,7 +130,7 @@ footer {
 /* Media Queries for Mobile Devices */
 @media only screen and (max-width: 600px) {
   header {
-    font-size: 12px;
+    font-size: 15px;
   }
   footer {
     font-size: 20px;
@@ -139,12 +139,12 @@ footer {
     padding-left: 0px;
   }
   .project p {
-    font-size: 10px;
+    font-size: 13px;
   }
   .project li {
-    font-size: 10px;
+    font-size: 13px;
   }
   .on-same-line {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
