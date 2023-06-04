@@ -128,5 +128,22 @@ footer {
 
 /* Media Queries for Mobile Devices */
 @media only screen and (max-width: 600px) {
-
+  header {
+    font-size: 25px;
+  }
+  footer {
+    font-size: 40px;
+  }
+  .project {
+    padding: 20px;
+  }
+  .project p {
+    font-size: 20px;
+  }
+  .project li {
+    font-size: 18px;
+  }
+  .on-same-line {
+    font-size: 18px;
+  }
 }
