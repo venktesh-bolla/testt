@@ -65,6 +65,17 @@ footer {
   border-radius: 50%;
 }
 
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+}
+
 .linkedin-button {
   display: flex;
   align-items: center;
