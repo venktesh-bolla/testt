@@ -96,7 +96,8 @@ footer {
 .project {
   text-align: center;
   margin-top: 30px;
-  padding: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
 .project p {
@@ -135,7 +136,7 @@ footer {
     font-size: 40px;
   }
   .project {
-    padding: 20px;
+    padding-left: 0px;
   }
   .project p {
     font-size: 20px;
