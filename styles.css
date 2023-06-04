@@ -128,16 +128,16 @@ footer {
 /* Media Queries for Mobile Devices */
 @media only screen and (max-width: 600px) {
   .project h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .project p {
-    font-size: 16px;
+    font-size: 15px;
     margin: 5px;
   }
 
   .project li {
-    font-size: 14px;
+    font-size: 15px;
     margin-left: 25px;
   }
 }
