@@ -56,6 +56,15 @@ footer {
   background-color: rgba(245, 225, 106, 0.3);
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
 .linkedin-button {
   display: flex;
   align-items: center;
