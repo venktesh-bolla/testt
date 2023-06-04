@@ -143,6 +143,7 @@ footer {
   }
   .project li {
     font-size: 13px;
+    margin-left: 20px;
   }
   .on-same-line {
     font-size: 12px;
