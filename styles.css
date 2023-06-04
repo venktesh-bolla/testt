@@ -128,7 +128,7 @@ footer {
 /* Media Queries for Mobile Devices */
 @media only screen and (max-width: 600px) {
   .project h1 {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .project p {
