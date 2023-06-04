@@ -130,21 +130,21 @@ footer {
 /* Media Queries for Mobile Devices */
 @media only screen and (max-width: 600px) {
   header {
-    font-size: 25px;
+    font-size: 12px;
   }
   footer {
-    font-size: 40px;
+    font-size: 20px;
   }
   .project {
     padding-left: 0px;
   }
   .project p {
-    font-size: 20px;
+    font-size: 10px;
   }
   .project li {
-    font-size: 18px;
+    font-size: 10px;
   }
   .on-same-line {
-    font-size: 18px;
+    font-size: 10px;
   }
 }
