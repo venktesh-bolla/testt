@@ -38,6 +38,24 @@ header {
   background-color: rgba(245, 225, 106, 0.3);
 }
 
+.linkedin-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0077B5;
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.linkedin-button:hover {
+  background-color: #005B8E;
+}
+
 .project {
   text-align: center;
   margin-top: 30px;
