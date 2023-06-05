@@ -70,8 +70,12 @@ footer {
   color: #f5e16a;
 }
 
-/* Facebook */
+/* Linkedin */
 .fa-linkedin {
+  color: white;
+}
+
+.fa-gmail {
   color: white;
 }
 
