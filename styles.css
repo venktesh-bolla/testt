@@ -84,7 +84,7 @@ footer {
   color: white;
 }
 
-.icon-linkedin, icon-whatsapp {
+.icon-linkedin, .icon-whatsapp {
   display: flex;
   align-items: center;
   justify-content: center;
