@@ -84,7 +84,7 @@ footer {
   color: white;
 }
 
-.icon-linkedin, .icon-whatsapp {
+.icon-linkedin, .icon-whatsapp, .icon-email {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -105,7 +105,11 @@ footer {
   background-color: green;
 }
 
-.icon-linkedin:hover, .icon-whatsapp:hover {
+.icon-email {
+  background-color: green;
+}
+
+.icon-linkedin:hover, .icon-whatsapp:hover, .icon-email {
   background-color: #005B8E;
 }
 
