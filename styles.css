@@ -85,7 +85,11 @@ footer {
   color: white;
 }
 
-.icon-linkedin, .icon-whatsapp, .icon-email {
+.fa-github {
+  color: white;
+}
+
+.icon-linkedin, .icon-whatsapp, .icon-email, .icon-github {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,7 +114,11 @@ footer {
   background-color: green;
 }
 
-.icon-linkedin:hover, .icon-whatsapp:hover, .icon-email {
+.icon-github {
+  background-color: green;
+}
+
+.icon-linkedin:hover, .icon-whatsapp:hover, .icon-email:hover, .icon-github:hover {
   background-color: #005B8E;
 }
 
