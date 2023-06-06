@@ -111,11 +111,11 @@ footer {
 }
 
 .icon-email {
-  background-color: green;
+  background-color: #0077B5;
 }
 
 .icon-github {
-  background-color: green;
+  background-color: grey;
 }
 
 .icon-linkedin:hover, .icon-whatsapp:hover, .icon-email:hover, .icon-github:hover {
